@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'java-library-distribution'
+
+group = 'com.spidey01.gringolicensingframework'
+version = '0.1-SNAPSHOT'
+description = 'Multiplatform framework for adding license checks to your apps.'
+
+repositories {
+    mavenCentral()
+}
+
